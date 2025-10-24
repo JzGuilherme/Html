@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  border: 2px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 10px 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.intro {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  border-bottom: 2px solid black;
+}
+
+.projects, .work, .education {
+  flex: 1;
+  border-right: 2px solid black;
+  padding: 15px;
+}
+
+.projects ul li {
+  border-top: 1px solid black;
+  padding: 5px 0;
+}
+
+.projects ul li:first-child {
+  border-top: none;
+}
+
+.education ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education ul li {
+  margin-bottom: 4px;
+}
+
+.reviews {
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.review-box {
+  display: inline-block;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
